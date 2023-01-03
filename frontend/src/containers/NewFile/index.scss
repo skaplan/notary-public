@@ -1,0 +1,54 @@
+.NewFile-textarea {
+  width: 50%;
+  height: 300px;
+}
+
+.NewFile-titleInput {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.NewFile-dropzone {
+  width: 400px;
+}
+
+.NewFile-card {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.NewFile-uploadButton {
+  margin-bottom: 15px;
+}
+
+.NewFile-hashDisplay {
+  margin-bottom: 15px;
+  color: #0f9960;
+}
+
+.NewFile-createProof {
+  margin-right: 10px;
+}
+
+.NewFile-error {
+  color: #a82a2a;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.NewFile-bottomRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.NewFile-bottomRow .bp3-spinner {
+  vertical-align: middle;
+}

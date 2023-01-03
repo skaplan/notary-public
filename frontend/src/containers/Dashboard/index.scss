@@ -1,0 +1,49 @@
+.Status-statusWrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Status-statusText {
+  margin-left: 5px;
+}
+
+.Status-detail {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.Status-viewHistoryBtn {
+  margin-top: 15px;
+}
+.Status-dboxBtnWrap {
+  margin-bottom: 15px;
+}
+
+.StarredFilesSummary-row {
+  font-size: 20px;
+  text-decoration: underline;
+  margin-top: 15px;
+}
+
+.StarredFilesSummary-row .bp3-icon {
+  margin-right: 15px;
+}
+
+.StarredFilesSummary-seeMore {
+  margin-top: 20px;
+}
+
+.Dashboard-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Status-wrapper {
+  width: 50%;
+}
+
+.StarredFilesSummary-wrapper {
+  width: 50%;
+}

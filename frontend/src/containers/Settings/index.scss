@@ -1,0 +1,72 @@
+.Settings-wrapper {
+  width: 350px;
+}
+
+.Settings-emailLabel {
+  font-size: 16px;
+}
+
+.Settings-email {
+  font-weight: bold;
+}
+
+.Settings-emailBlock {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.Settings-wrapper .bp3-callout {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.UpdateEmail-form {
+  max-width: 350px;
+}
+
+.UpdateEmail-error {
+  color: #db3737;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.UpdateEmail-wrapper .bp3-card {
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.UpdatePassword-card {
+  height: 330px;
+}
+
+.UpdatePassword-card h3 {
+  margin-bottom: 3px;
+}
+
+.UpdatePassword-headerBlock {
+  margin-bottom: 20px;
+}
+
+.UpdatePassword-wrapper {
+  margin-top: 40px;
+}
+
+.UpdatePassword-wrapper .bp3-card {
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.UpdatePassword-successWrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.RemoveDropbox-wrapper {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}

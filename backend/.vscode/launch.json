@@ -1,0 +1,76 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "web",
+      "program": "${workspaceFolder}/src/index.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "checkProof",
+      "program": "${workspaceFolder}/utils/checkProof.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "watchBlocks",
+      "program": "${workspaceFolder}/src/watchBlocksWorker.js",
+      "console": "integratedTerminal"
+    },
+
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "publishWorker",
+      "program": "${workspaceFolder}/src/publishWorker.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "scratch",
+      "program": "${workspaceFolder}/misc/scratch.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "syncWorker",
+      "program": "${workspaceFolder}/src/syncWorker.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "watchNotificationsWorker",
+      "program": "${workspaceFolder}/src/watchNotificationsWorker.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "processHashes",
+      "program": "${workspaceFolder}/src/processHashes.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "join",
+      "program": "${workspaceFolder}/src/joinWorker.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Dropbox",
+      "program": "${workspaceFolder}/src/dropboxClient.js"
+    }
+  ]
+}

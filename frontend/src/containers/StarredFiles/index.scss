@@ -1,0 +1,81 @@
+@import '../../constants.scss';
+
+.FileTable-wrapper table {
+  width: 100%;
+}
+
+.FileTable-wrapper td {
+  font-size: 16px;
+}
+
+.FileTable-wrapper .FileTable-alignRight {
+  text-align: right;
+}
+
+.FileTable-type {
+  width: 7%;
+}
+
+.FileTable-type .bp3-icon {
+  padding-left: 10px;
+}
+
+.FileTable-title {
+  width: 63%;
+}
+.FileTable-addedAt {
+  width: 30%;
+}
+
+.StarredFiles-inputWrapper {
+  width: 400px;
+  height: 50px;
+  margin-top: 30px;
+
+  margin-bottom: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.StarredFiles-search {
+  border: none;
+  width: 380px;
+  height: 50px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.StarredFiles-searchIcon {
+  margin-left: 10px;
+}
+
+.StarredFiles-search:focus {
+  outline: none;
+}
+.StarredFiles-previous {
+  margin-right: 20px;
+  width: 130px;
+  height: 40px;
+}
+
+.StarredFiles-next {
+  width: 130px;
+  height: 40px;
+}
+.StarredFiles-buttons {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.StarredFiles-pageNumber {
+  margin-left: 20px;
+}
+
+.StarredFiles-spinnerWrap {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

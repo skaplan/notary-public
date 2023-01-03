@@ -1,0 +1,221 @@
+.FileInfo-leftWrap {
+  width: 50%;
+  padding-right: 2.5%;
+}
+
+.FileInfo-leftWrap p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.FileInfo-leftWrap h4 {
+  margin-top: 20px;
+}
+
+.FileInfo-rightWrap {
+  width: 50%;
+  padding-left: 2.5%;
+}
+
+.FileInfo-verifiedIcon {
+  vertical-align: middle;
+  padding-bottom: 5px;
+  margin-right: 8px;
+}
+
+.FileInfo-syncing {
+  font-size: 16px;
+}
+
+.FileInfo-wrapper {
+  display: flex;
+}
+.FileInfo-titleWrap {
+  width: 100%;
+  margin-top: 10px;
+  overflow-wrap: break-word;
+  margin-bottom: 20px;
+  position: relative;
+}
+.FileInfo-hash {
+  overflow-wrap: break-word;
+  color: #5c7080;
+}
+
+.FileInfo-toolbar {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding-right: 20px;
+}
+
+.FileInfo-toolbarIcon {
+  vertical-align: middle;
+  color: #10161a;
+}
+
+.FileInfo-toolbarItem {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.FileInfo-toolbarItem:hover {
+  cursor: pointer;
+}
+
+.FileInfo-proofButtons {
+  margin-top: 20px;
+}
+
+.FileInfo-proofButton {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.FileInfo-syncing {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FileInfo-syncingText {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.FileInfo-subscribe {
+  width: 100%;
+}
+
+.File-loadWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.File-missingWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.File-missingWrap h4 {
+  margin-top: 20px;
+}
+
+.SharePopoverContent-wrapper {
+  width: 225px;
+  height: 75px;
+
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.SharePopoverContent-wrapper input {
+  width: 200px;
+}
+
+.SharePopoverContent-spinner {
+  margin-top: 17px;
+  margin-right: 10px;
+}
+
+.PublicSubscribe-card input {
+  width: 65%;
+}
+
+.PublicSubscribePopover-submit {
+  margin-left: 30px;
+}
+
+.PublicSubscribePopover-successWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.PublicSubscribePopover-successWrap h6 {
+  margin-top: 30px;
+}
+
+.PublicSubscribePopover-spinWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.PublicSubscribe-card {
+  display: block;
+  margin-top: 60px;
+  height: 200px;
+}
+.PublicSubscribe-cardBody {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.PublicSubscribe-inputWrap {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.ProofDialog-TextAreaWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.ProofDialog-TextAreaWrap textarea.bp3-input {
+  width: 400px;
+  height: 250px;
+}
+
+.CompareHashDialog-dropzone {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 340px;
+  display: flex;
+  align-items: center;
+}
+.CompareHashDialog-card {
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.CompareHashDialog-dropzone div {
+  width: 100%;
+  text-align: center;
+}
+
+.ViewerSubscribe-button {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ViewerSubscribe-confirm {
+  margin-top: 35px;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.ViewerSubscribe-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}

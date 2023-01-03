@@ -1,0 +1,218 @@
+.Home-header {
+  padding-top: 15px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Home-logo {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #10161a;
+}
+
+.Home-wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lora', serif;
+  color: #10161a;
+}
+
+.Home-nav {
+  display: flex;
+}
+
+.Home-navItem {
+  font-size: 18px;
+  margin-left: 20px;
+  color: black;
+}
+
+.Home-navItem:hover {
+  text-decoration: underline;
+  color: #106ba3;
+  cursor: pointer;
+}
+
+.Home-firstRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Home-leftCol {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.Home-imgWrap {
+  width: 80%;
+}
+
+.Home-rightCol {
+  width: 50%;
+}
+
+.Home-headText {
+  font-size: 28px;
+  margin-left: 50px;
+}
+
+.Home-dbWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.Home-dontHave {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 23px;
+  font-style: italic;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.Home-uploadCard {
+  width: 400px;
+  height: 250px;
+}
+
+.UploadDrop-dropzone {
+  width: 430px;
+  display: flex;
+  align-items: center;
+}
+.UploadDrop-card {
+  height: 230px;
+  display: flex;
+  align-items: center;
+
+  h4 {
+    font-size: 24px;
+  }
+}
+
+.UploadDrop-dropzone div {
+  width: 100%;
+  text-align: center;
+}
+
+.Home-secondRow {
+  display: flex;
+  margin-top: 50px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.Home-secondRowRight {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.Home-secondRowRight textarea.bp3-input {
+  width: 400px;
+  height: 200px;
+  display: block;
+}
+
+.Home-secondRowLeft {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.Home-noteWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.Home-saveBtn {
+  display: block;
+  margin-top: 10px;
+}
+.Home-wrapper {
+  padding-bottom: 30px;
+}
+
+.UploadDrop-card .bp3-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.FileDrop-error {
+  color: #a82a2a;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Home-reasonWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Home-reasonItem {
+  width: 50%;
+  padding: 20px;
+}
+
+.Home-teaserText {
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 80%;
+  font-size: 20px;
+}
+
+.Home-how {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Home-how h2 {
+  font-size: 35px;
+}
+.Home-step {
+  margin-bottom: 30px;
+  display: flex;
+}
+.Home-step p {
+  font-size: 20px;
+}
+.Home-stepNum {
+  font-size: 50px;
+  margin-right: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .Home-secondRowLeft {
+    width: 100%;
+  }
+  .Home-secondRowRight {
+    width: 100%;
+  }
+  .Home-leftCol {
+    width: 100%;
+  }
+  .Home-rightCol {
+    width: 100%;
+  }
+  .Home-secondRowRight textarea.bp3-input {
+    margin-top: 20px;
+  }
+  .Home-nav {
+    display: none;
+  }
+  .Home-secondRowRight textarea.bp3-input {
+    width: 300px;
+  }
+  .Home-reasonItem {
+    width: 100%;
+  }
+}

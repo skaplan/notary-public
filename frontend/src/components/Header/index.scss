@@ -1,0 +1,22 @@
+@import '../../constants.scss';
+
+.Header {
+  padding-top: 15px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.Header-logo {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 36pt;
+  color: $black;
+}
+
+.Header-logoLink {
+  color: #10161a;
+}
+.Header-logoLink:hover {
+  color: #10161a;
+  text-decoration: none;
+}

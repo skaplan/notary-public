@@ -1,0 +1,29 @@
+.JobsTable-type {
+  width: 10%;
+}
+
+.JobsTable-files {
+  width: 20%;
+}
+
+.JobsTable-startAt {
+  width: 35%;
+}
+
+.JobsTable-endAt {
+  width: 35%;
+}
+
+.JobsTable-iconWrap {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Jobs-spinnerWrap {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

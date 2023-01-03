@@ -1,0 +1,55 @@
+{
+  "name": "notary",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "engines": {
+    "node": "9.6.1"
+  },
+  "scripts": {
+    "setup-db": "createdb notary",
+    "lint": "eslint \"src/**/*.js\"",
+    "start": "node src/index.js",
+    "start-dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.0.0",
+    "aws-sdk": "^2.311.0",
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.0",
+    "bitcore-lib": "^0.15.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "elasticsearch": "^15.1.1",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "graphql-tools": "^3.1.1",
+    "http-aws-es": "^6.0.0",
+    "json-stringify-safe": "^5.0.1",
+    "jsonwebtoken": "^8.3.0",
+    "knex": "^0.15.2",
+    "lodash": "^4.17.10",
+    "loglevel": "^1.6.1",
+    "moment": "^2.22.2",
+    "objection": "^1.2.2",
+    "p-map": "^2.0.0",
+    "pg": "^7.4.3",
+    "randomstring": "^1.1.5",
+    "uuid": "^3.3.2",
+    "validator": "^10.7.1",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "ajv": "^5.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "prettier": "^1.14.0"
+  }
+}

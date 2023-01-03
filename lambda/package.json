@@ -1,0 +1,17 @@
+{
+  "name": "notary-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "./deploy.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.311.0",
+    "elasticsearch": "^15.1.1",
+    "http-aws-es": "^6.0.0"
+  }
+}
